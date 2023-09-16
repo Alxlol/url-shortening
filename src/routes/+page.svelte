@@ -5,7 +5,8 @@
 	import PageWrapper from '../lib/components/page-wrapper.svelte';
 	import Headline from '../lib/components/typography/headline.svelte';
 	import Paragraph from '../lib/components/typography/paragraph.svelte';
-	import UrlInput from '../lib/components/url-input.svelte';
+	import UrlInput from '../lib/components/link-shortening/url-input.svelte';
+	import LinkShorteningContainer from '../lib/components/link-shortening/link-shortening-container.svelte';
 </script>
 
 <section class="text-center lg:text-start flex flex-col mt-4 mb-32">
@@ -27,8 +28,8 @@
 </section>
 <section class="bg-gray-200 text-center pb-16">
 	<PageWrapper>
-		<UrlInput />
 		<div class="mb-20 flex flex-col justify-center items-center">
+			<LinkShorteningContainer />
 			<div class="max-w-md">
 				<Headline textSize="text-2xl">Advanced Statistics</Headline>
 				<Paragraph>
