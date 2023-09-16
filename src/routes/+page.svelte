@@ -11,7 +11,7 @@
 
 <section class="text-center lg:text-start flex flex-col mt-4 mb-32">
 	<PageWrapper>
-		<div class="flex flex-col lg:flex-row-reverse items-center gap-4 lg:gap-8">
+		<div class="flex flex-col lg:flex-row-reverse items-center justify-center gap-4 lg:gap-8">
 			<div>
 				<img src="/illustration-working.svg" alt="" />
 			</div>
@@ -20,7 +20,7 @@
 				<Paragraph>
 					Build your brand's recognition and get detailed insights on how your links are performing.
 				</Paragraph>
-				<ButtonCyan classes="mt-4 px-4 py-2">Get Started</ButtonCyan>
+				<ButtonCyan classes="mt-6 px-4 py-2">Get Started</ButtonCyan>
 			</div>
 		</div>
 	</PageWrapper>
@@ -63,32 +63,32 @@
 	<div>
 		<LinksHeadline>Features</LinksHeadline>
 		<div class="flex flex-col gap-2">
-			<a class="text-sm text-Gray" href="/">Link Shortening</a>
-			<a class="text-sm text-Gray" href="/">Branded Links</a>
-			<a class="text-sm text-Gray" href="/">Analytics</a>
+			<a class="text-sm text-Gray hover:text-white" href="/">Link Shortening</a>
+			<a class="text-sm text-Gray hover:text-white" href="/">Branded Links</a>
+			<a class="text-sm text-Gray hover:text-white" href="/">Analytics</a>
 		</div>
 	</div>
 	<div>
 		<LinksHeadline>Resources</LinksHeadline>
 		<div class="flex flex-col gap-2">
-			<a class="text-sm text-Gray" href="/">Blog</a>
-			<a class="text-sm text-Gray" href="/">Developes</a>
-			<a class="text-sm text-Gray" href="/">Support</a>
+			<a class="text-sm text-Gray hover:text-white" href="/">Blog</a>
+			<a class="text-sm text-Gray hover:text-white" href="/">Developes</a>
+			<a class="text-sm text-Gray hover:text-white" href="/">Support</a>
 		</div>
 	</div>
 	<div>
 		<LinksHeadline>Company</LinksHeadline>
 		<div class="flex flex-col gap-2">
-			<a class="text-sm text-Gray" href="/">About</a>
-			<a class="text-sm text-Gray" href="/">Our Team</a>
-			<a class="text-sm text-Gray" href="/">Careers</a>
-			<a class="text-sm text-Gray" href="/">Contact</a>
+			<a class="text-sm text-Gray hover:text-white" href="/">About</a>
+			<a class="text-sm text-Gray hover:text-white" href="/">Our Team</a>
+			<a class="text-sm text-Gray hover:text-white" href="/">Careers</a>
+			<a class="text-sm text-Gray hover:text-white" href="/">Contact</a>
 		</div>
 	</div>
-	<div class="flex justify-center text-2xl mt-10 lg:mt-0 gap-4">
-		<a href="/"><Icon icon="ant-design:facebook-filled" /></a>
-		<a href="/"><Icon icon="mdi:twitter" /></a>
-		<a href="/"><Icon icon="mdi:pinterest" /></a>
-		<a href="/"><Icon icon="mdi:instagram" /></a>
+	<div class="flex justify-center mt-10 lg:mt-0 gap-4">
+		<a class="text-2xl" href="/"><Icon icon="ant-design:facebook-filled" /></a>
+		<a class="text-2xl" href="/"><Icon icon="mdi:twitter" /></a>
+		<a class="text-2xl" href="/"><Icon icon="mdi:pinterest" /></a>
+		<a class="text-2xl" href="/"><Icon icon="mdi:instagram" /></a>
 	</div>
 </footer>

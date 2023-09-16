@@ -21,7 +21,8 @@
 	<button
 		on:click={copyText}
 		class=" {copied
-			? 'bg-DarkViolet'
-			: 'bg-Cyan hover:bg-cyan-600'}  text-white w-full rounded-md py-1 lg:w-1/12">Copy</button
+			? 'bg-DarkViolet hover:bg-VeryDarkBlue'
+			: 'bg-Cyan hover:bg-cyan-600'} transition-all duration-300 text-white w-full rounded-md py-1 lg:w-1/12"
+		>{copied ? 'Copied' : 'Copy'}</button
 	>
 </div>

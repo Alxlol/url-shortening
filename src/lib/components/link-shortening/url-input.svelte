@@ -28,7 +28,8 @@
 				</p>
 			{/if}
 		</div>
-		<button class="bg-Cyan text-white p-2 lg:p-4 rounded-lg font-semibold w-full lg:w-1/6"
+		<button
+			class="bg-Cyan hover:bg-cyan-300 text-white p-2 lg:p-4 rounded-lg font-semibold w-full lg:w-1/6"
 			>Shorten It!</button
 		>
 	</form>

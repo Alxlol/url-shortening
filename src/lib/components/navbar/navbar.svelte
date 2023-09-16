@@ -10,16 +10,18 @@
 <PageWrapper>
 	<nav class="flex justify-between items-center py-4">
 		<div class="flex items-center gap-12">
-			<p class="font-bold text-2xl text-VeryDarkBlue">Shortly</p>
+			<a href="/" class="font-bold text-2xl text-VeryDarkBlue">Shortly</a>
 			<ul class="gap-6 hidden lg:flex">
 				<a class="text-gray-500 hover:text-gray-900" href="/">Features</a>
 				<a class="text-gray-500 hover:text-gray-900" href="/">Pricing</a>
 				<a class="text-gray-500 hover:text-gray-900" href="/">Resources</a>
 			</ul>
 		</div>
-		<div class="hidden lg:flex gap-4">
-			<button class="text-gray-500 hover:text-gray-900 text-sm">Login</button>
-			<ButtonCyan classes="py-2 px-4 text-sm">Sign Up</ButtonCyan>
+		<div class="hidden lg:flex gap-4 items-center">
+			<a href="/login" class="text-sm text-Gray hover:text-VeryDarkViolet">Login</a>
+			<a href="/signup" class="text-sm bg-Cyan hover:bg-cyan-300 py-2 px-4 rounded-full text-white"
+				>Sign Up</a
+			>
 		</div>
 		<div class="lg:hidden">
 			<button
@@ -40,8 +42,8 @@
 			<a class="" href="/">Pricing</a>
 			<a class="" href="/">Resources</a>
 			<hr class="w-full" />
-			<button class=" text-sm">Login</button>
-			<ButtonCyan classes="py-2 px-4 text-sm">Sign Up</ButtonCyan>
+			<a href="/login" class="text-sm">Login</a>
+			<a href="/signup" class="text-sm bg-Cyan hover:bg-cyan-300 py-2 px-4 rounded-full">Sign Up</a>
 		</div>
 	{/if}
 </PageWrapper>
