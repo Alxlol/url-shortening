@@ -4,7 +4,5 @@
 	import PageWrapper from '../lib/components/page-wrapper.svelte';
 </script>
 
-<PageWrapper>
-	<Navbar />
-	<slot />
-</PageWrapper>
+<Navbar />
+<slot />
