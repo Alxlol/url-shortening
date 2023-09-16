@@ -5,8 +5,8 @@
 	import PageWrapper from '../lib/components/page-wrapper.svelte';
 	import Headline from '../lib/components/typography/headline.svelte';
 	import Paragraph from '../lib/components/typography/paragraph.svelte';
-	import UrlInput from '../lib/components/link-shortening/url-input.svelte';
 	import LinkShorteningContainer from '../lib/components/link-shortening/link-shortening-container.svelte';
+	import ButtonCyan from '../lib/components/button-cyan.svelte';
 </script>
 
 <section class="text-center lg:text-start flex flex-col mt-4 mb-32">
@@ -20,8 +20,7 @@
 				<Paragraph>
 					Build your brand's recognition and get detailed insights on how your links are performing.
 				</Paragraph>
-				<button class="bg-Cyan text-white px-4 py-2 rounded-full font-bold mt-4">Get Started</button
-				>
+				<ButtonCyan classes="mt-4 px-4 py-2">Get Started</ButtonCyan>
 			</div>
 		</div>
 	</PageWrapper>
@@ -55,7 +54,7 @@
 </section>
 <section class="bg-DarkViolet px-4 py-20 text-center bg-boost-mobile lg:bg-boost-desktop bg-cover">
 	<p class="text-2xl font-bold text-white">Boost your links today</p>
-	<button class="bg-Cyan text-white px-10 py-3 rounded-full font-bold mt-4">Get Started</button>
+	<ButtonCyan classes="px-10 py-3 mt-4">Get Started</ButtonCyan>
 </section>
 <footer
 	class="bg-VeryDarkViolet text-white text-center py-10 flex flex-col lg:flex-row lg:justify-between lg:px-24"
