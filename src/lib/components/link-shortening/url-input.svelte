@@ -19,7 +19,9 @@
 				bind:value={input}
 				on:focus={() => (errorState = false)}
 				placeholder="Shorten a link here..."
-				class="w-full h-full p-2 lg:p-4 rounded-lg px-3 outline-Cyan"
+				class="w-full h-full p-2 lg:p-4 rounded-lg px-3 {errorState
+					? 'outline-Red'
+					: 'outline-Cyan'} "
 				type="text"
 			/>
 			{#if errorState}

@@ -1,6 +1,5 @@
 <script>
-	import { onMount } from 'svelte';
-	import { fade, fly } from 'svelte/transition';
+	import { fly } from 'svelte/transition';
 
 	export let duration = 400;
 	export let x = 0;
